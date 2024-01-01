@@ -1,0 +1,15 @@
+# Updated 2026-02-09
+# Updated 2026-02-08
+# Environment files
+config/.env
+.env
+
+# Logs
+logs/*.log
+logs/*.txt
+!logs/.gitkeep
+src/logs/*.log
+
+# Composer
+/vendor/
+composer.lock

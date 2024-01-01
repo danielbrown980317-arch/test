@@ -1,0 +1,16 @@
+{
+    "name": "shopify-pickup-webhook-handler",
+    "description": "Shopify webhook handler for processing pickup point orders",
+    "type": "project",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
